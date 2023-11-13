@@ -1,1 +1,38 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- You can add more CSS or JavaScript files here if needed -->
+</head>
+<body>
+    <div>
+        <h1>Weather App</h1>
+        <div id="Tdate"></div> <!-- Display current date -->
+        
+        <form id="todo-form">
+            <input type="text" id="city-text" placeholder="Enter city name">
+            <button type="submit">Add City</button>
+        </form>
+
+        <h2>City List</h2>
+        <ul id="cities"></ul> <!-- Dynamically added city list -->
+
+        <h2>Current Weather</h2>
+        <div id="nameCity"></div> <!-- Current weather information -->
+        <img id="iconWea" alt="Weather Icon"> <!-- Weather icon display -->
+
+        <h2>Five Day Forecast</h2>
+        <div id="fivedays"></div> <!-- 5-day weather forecast -->
+    </div>
+
+    <!-- Include jQuery for slideToggle function (if needed) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <!-- Your JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
